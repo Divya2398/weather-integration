@@ -6,7 +6,7 @@
 
 // export default function App() {
 //   const API_URL = "https://api.openweathermap.org/data/2.5";
-//   const API_KEY = "5a041aaf0eb3429d9e5d42a5964be14c";
+//   const API_KEY = "**************";
 //   const REACT_APP_ICON_URL = "https://openweathermap.org/img/w";
 //   const [lat, setLat] = useState([]);
 //   const [long, setLong] = useState([]);
@@ -20,7 +20,7 @@
 //       });
 //       console.log("lat", lat);
 //       await fetch(
-//         `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=5a041aaf0eb3429d9e5d42a5964be14c`
+//         `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=APIKEY`
 //       )
 //         .then((res) => res.json())
 //         .then((result) => {
